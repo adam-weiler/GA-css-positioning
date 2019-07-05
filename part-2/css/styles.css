@@ -15,15 +15,84 @@ body {
   margin: 0;
 }
 
-img {
-  max-width: 100%;
-}
-
 figure {
   margin: 0;
 }
 
 .film {
   width: 50%;
-  margin: 40px auto;
+  margin: 40px auto 0;
+  border: 1px solid grey;
+  padding: 40px 0 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.film-poster {
+  /* display: inline; */
+  /* max-width: 80%; */
+  /* width: 80%;
+  background-color: red;
+  width: 50px;
+  height: 50px; */
+  /* display: inline-block; */
+  /* max-width: 40%; */
+}
+
+img {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.fa-clock-o {
+  bottom: 80px;
+  left: 80px;
+  position: relative;
+  color: #F00;
+  z-index: 99;
+  width: 100%;
+}
+
+.film-details {
+  /* margin: 0; */
+  /* padding: 0 10px; */
+  /* position: absolute; */
+  /* display: inline-block; */
+  /* max-width: 400px; */
+  /* max-width: 60%; */
+  font-size: 28px;
+  margin-left: 20px;
+  padding: 0;
+  position: relative;
+}
+
+.film-title {
+  margin: 0;
+  padding: 10px;
+}
+
+h1.film-title {
+  margin: 0;
+  padding: 0;
+  /* background-color: cyan; */
+  font-size: 1.2em;
+}
+
+
+.film-description {
+  margin: 0;
+  padding: 0 40px 50px;
+  /* position: absolute; */
+  display: inline-block;
+  /* max-width: 400px; */
+  font-size: .8em;
+}
+
+.action-like {
+  /* float: right; */
+  right: 8px;
+  bottom: 8px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
 }
