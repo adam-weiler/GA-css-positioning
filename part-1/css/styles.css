@@ -28,21 +28,38 @@ body {
 }
 
 .red {
+  top: 50px;
+  left: -100px;
+  position: absolute;
   background-color: pink;
 }
 
 .green {
+  top: 50px;
+  right: 50%;
+  position: absolute;
   background-color: lightgreen;
 }
 
 .blue {
+  top: 50px;
+  left: 200px;
+  position: relative;
+  z-index: 99;
   background-color: lightblue;
 }
 
 .orange {
+  top: 75%;
+  left: 25%;
+  position: absolute;
   background-color: orange;
 }
 
 .yellow {
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  position: fixed;
   background-color: yellow;
 }
