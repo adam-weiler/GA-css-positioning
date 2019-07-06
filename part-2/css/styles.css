@@ -15,33 +15,25 @@ body {
   margin: 0;
 }
 
+/* The container article. */
 .film {
-  width: 50%;
-  margin: 40px auto 0;
-  border: 1px solid grey;
+  margin: 40px auto 50px;
   padding: 40px 0 0 40px;
+  position: relative;
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  position: relative;
+  border: 1px solid #eee;
   align-items: start;
 }
 
-figure {
-  margin: 0;
-}
-
+/* The figure that contains the img, action-watch-later div, and fa-clock-o i. */
 .film-poster {
-  /* display: inline; */
-  /* max-width: 80%; */
-  /* width: 80%;
-  background-color: red;
-  width: 50px;
-  height: 50px; */
-  /* display: inline-block; */
-  /* max-width: 40%; */
+  margin: 0;
+  padding-bottom: 20px;
   position: relative;
-  /* background-color: blue; */
   height: 100%;
+  text-align: right;
 }
 
 img {
@@ -49,16 +41,11 @@ img {
   max-height: 500px;
 }
 
+/* Contains the fa-clock-o i. */
 .action-watch-later {
-  position: absolute;
-  /* background-color: pink; */
-  /* top: 50px;
-  left: 180px; */
   top: 12px;
   right: -4px;
-  /* bottom: 140px; */
-  /* right: 8px; */
-  /* left: 200px; */
+  position: absolute;
 }
 
 .fa-clock-o {
@@ -66,50 +53,33 @@ img {
   right: 8px;
   position: relative;
   color: #F00;
-  /* z-index: 99; */
 }
 
+/* Contains the film-title h1, film-description p, and action-like div. */
 .film-details {
-  /* margin: 0; */
-  /* padding: 0 10px; */
-  /* position: absolute; */
-  /* display: inline-block; */
-  /* max-width: 400px; */
-  /* max-width: 60%; */
-  font-size: 28px;
   margin-left: 20px;
   padding: 0;
   position: relative;
+  height: 100%;
+  font-size: 28px;
 }
 
 .film-title {
   margin: 0;
-  padding: 10px;
-}
-
-h1.film-title {
-  margin: 0;
   padding: 0;
-  /* background-color: cyan; */
   font-size: 1.2em;
 }
-
 
 .film-description {
   margin: 0;
   padding: 0 40px 50px 0;
-  /* position: absolute; */
   display: inline-block;
-  /* max-width: 400px; */
   font-size: .8em;
 }
 
 .action-like {
-  /* float: right; */
-  right: 8px;
   bottom: 8px;
+  right: 8px;
   position: absolute;
-  bottom: 8px;
-  right: 8px;
   color: red;
 }
